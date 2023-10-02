@@ -1,7 +1,7 @@
 # NI-Azdo-PR-FileDiffTool
 
 ## Overview
-This feature is used to differ TestStand .seq and LabVIEW .vi files from Azdo Pull Request.
+This feature is used to differ TestStand .seq and LabVIEW .vi files from Azdo Pull Request. This will add a button to Azdo Pull Request and then by clicking on that button you will be able to diff the original and modified file in Diff/Compare tool of corresponding NI Software.
 
 ## Prerequisites
 - Corresponding software i.e., LabVIEW or TestStand should be installed on the local machine.
