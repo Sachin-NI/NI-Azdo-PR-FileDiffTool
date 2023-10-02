@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\NIAzdoPRDiffer]
+@="NIAzdoPRDiffer"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\NIAzdoPRDiffer\DefaultIcon]
+@="NIAzdoPRDiffer.exe"
+
+[HKEY_CLASSES_ROOT\NIAzdoPRDiffer\shell]
+@="Open"
+
+[HKEY_CLASSES_ROOT\NIAzdoPRDiffer\shell\open]
+@="Open(&O)"
+
+[HKEY_CLASSES_ROOT\NIAzdoPRDiffer\BrowserDownload]
+"BrowserDownloadLocation"="C:\\Users\\ssahara\\Downloads\\"
+
+[HKEY_CLASSES_ROOT\NIAzdoPRDiffer\shell\open\command]
+@="\"C:\\NIAzdoPR\\NI-Azdo-PR-FileDiffTool\\src\\NIAzdoPRDiffer\\NIAzdoPRDiffer\\bin\\Release\\net6.0\\NIAzdoPRDiffer.exe\" \"%1\" \"%2\""
