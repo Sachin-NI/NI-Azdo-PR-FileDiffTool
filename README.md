@@ -10,7 +10,7 @@ This feature is used to differ TestStand .seq and LabVIEW .vi files from Azdo Pu
 ## Getting Started
 1. [Install the Violentmonkey extension](https://violentmonkey.github.io/)
 2. Refresh this page if you just installed this extension (or the download link won't work)
-3. [Install this userscript](https://github.com/sachin801/NI-Azdo-PR-FileDiffTool/blob/main/src/ViolentMonkeyScript/NI-Azdo-PR-Differ.js)
+3. [Install this userscript](https://github.com/sachin801/NI-Azdo-PR-FileDiffTool/raw/main/src/ViolentMonkeyScript/NI-Azdo-PR-Differ.js)
 4. [Download this application](https://github.com/sachin801/NI-Azdo-PR-FileDiffTool/blob/main/src/NIAzdoPRDiffer/NIAzdoPRDiffer/bin/Release/net6.0/NIAzdoPRDiffer.exe)
 5. [Download this .reg file](https://github.com/sachin801/NI-Azdo-PR-FileDiffTool/blob/main/cfg/NIAzdoDiffRegEdit.reg).
 6. Open the downloaded .reg file in any Editor i.e., (Notepad/ Notepad++) and Edit the following values:
