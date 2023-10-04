@@ -11,7 +11,7 @@ This feature is used to differ TestStand .seq and LabVIEW .vi files from Azdo Pu
 1. [Install the Violentmonkey extension](https://violentmonkey.github.io/)
 2. Refresh this page if you just installed this extension (or the download link won't work)
 3. [Install this userscript](https://github.com/sachin801/NI-Azdo-PR-FileDiffTool/raw/main/src/ViolentMonkeyScript/NI-Azdo-PR-Differ.user.js)
-4. [Download this application folder](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sachin801/NI-Azdo-PR-FileDiffTool/tree/main/src/NIAzdoPRDiffer/NIAzdoPRDiffer/bin/Release/net6.0) and extract the downloaded zip folder.
+4. [Click here to Download the application folder](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sachin801/NI-Azdo-PR-FileDiffTool/tree/main/src/NIAzdoPRDiffer/NIAzdoPRDiffer/bin/Release/net6.0) and then extract the downloaded zip folder.
 5. [Download this .reg file](https://github.com/sachin801/NI-Azdo-PR-FileDiffTool/blob/main/cfg/NIAzdoDiffRegEdit.reg).
 6. Open the downloaded .reg file in any Editor i.e., (Notepad/ Notepad++) and Edit the following values:
    - Change the BrowserDownloadLocation value to the default download location of your browser on which you will view the PullRequest.
