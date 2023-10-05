@@ -17,8 +17,10 @@ namespace AzdoPRDiffer
 
             string[] parts = args[0].Split(':');
             string[] fileArray = parts[1].Split(",");
-            string originalFileName = fileArray[0].Trim();
-            string modifiedFileName = fileArray[1].Trim();
+            string originalFileNameTemp = fileArray[0].Trim();
+            string originalFileName = originalFileNameTemp.Replace("%20", " ");
+            string modifiedFileNameTemp = fileArray[1].Trim();
+            string modifiedFileName = modifiedFileNameTemp.Replace("%20", " ");
 
             string exePath = "";
 
@@ -62,7 +64,7 @@ namespace AzdoPRDiffer
 
             Process process = new Process();
             process.StartInfo.FileName = exePath;
-            process.StartInfo.Arguments = $"{originalFilePath} {modifiedFilePath}";
+            process.StartInfo.Arguments = $"\"{originalFilePath}\" \"{modifiedFilePath}\"";
 
             try
             {

@@ -172,8 +172,8 @@
         var originalFileDownloadLink = `${azdoApiBaseUrl}/${pr.repository.project.name}/_apis/git/repositories/${pr.repository.id}/items/?path=${filePath}&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=2&versionDescriptor%5Bversion%5D=${beforeCommitId}&resolveLfs=true&%24format=octetStream&api-version=5.0`
         var modifiedFileDownloadLink = `${azdoApiBaseUrl}/${pr.repository.project.name}/_apis/git/repositories/${pr.repository.id}/items/?path=${filePath}&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=2&versionDescriptor%5Bversion%5D=${afterCommitId}&resolveLfs=true&%24format=octetStream&api-version=5.0`
 
-        const orignalFileDownload = downloadChangedFiles(originalFileDownloadLink, originalFileCustomName);
-        const modifiedFileDownload = downloadChangedFiles(modifiedFileDownloadLink, modifiedFileCustomName);
+        const orignalFileDownload = await downloadChangedFiles(originalFileDownloadLink, originalFileCustomName);
+        const modifiedFileDownload = await downloadChangedFiles(modifiedFileDownloadLink, modifiedFileCustomName);
         await Promise.all([orignalFileDownload, modifiedFileDownload]);
 
         const protocolHandlerAddress = `NIAzdoPRDiffer:${originalFileCustomName},${modifiedFileCustomName}`;
