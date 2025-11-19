@@ -8,7 +8,7 @@ This feature is used to differ TestStand .seq and LabVIEW .vi files from Azdo Pu
 - Supported Only on Windows OS.
 
 ## Getting Started
-**Note:** Recommend to use tampermonkey instead of violentmonkey as the latter has been blocked from NI IT team.
+**Note:** Recommend to use tampermonkey instead of violentmonkey as the latter has been blocked by NI IT team.
 1. [Install the tampermonkey extension](https://www.tampermonkey.net/index.php) or [Install the Violentmonkey extension](https://violentmonkey.github.io/)
 2. Refresh this page if you just installed this extension (or the download link won't work)
 3. [Install this userscript if tampermonkey is installed](https://github.com/Sachin-NI/NI-Azdo-PR-FileDiffTool/raw/refs/heads/main/src/TamperMonkeyScript/NI-Azdo-PR-Differ-tamperMonkey.user.js) or [Install this userscript if violentmonkey is installed](https://github.com/sachin801/NI-Azdo-PR-FileDiffTool/raw/main/src/ViolentMonkeyScript/NI-Azdo-PR-Differ.user.js)
